@@ -6,6 +6,8 @@ The code contains the folowing folders;
 Config
 The config file calls in a file called 'dotenv', this contains the username and password for security reasons and these will be concealed from others viewing the code such as in Github. It is accessed via the NPM package.
 
+It also calls 'sequelize' part of Node.js package it is a library used in javascript to manage an SQL database. It is a Objeact-Relational Mapper.
+
 DB section
 DB The code here creates and deletes the database.
 
@@ -20,7 +22,9 @@ This contains all the data to populate the database. This code has been written 
 
 Author Selina
 Github Link repository: https://github.com/Skirkzzz/week-13-Ecommerce-Backend
-Published in github pages
+Published in github pages https://skirkzzz.github.io/week-13-Ecommerce-Backend/
+
+To run the code
 
 # 13 Object-Relational Mapping (ORM): E-Commerce Back End
 
