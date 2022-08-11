@@ -1,5 +1,27 @@
 # week-13-Ecommerce-Backend
 
+This assignment is a demonstration of Object-Relational Mapping (ORM), which was used to create a backend SQL database for a fictious ecommerce company.
+
+The code contains the folowing folders;
+Config
+The config file calls in a file called 'dotenv', this contains the username and password for security reasons and these will be concealed from others viewing the code such as in Github. It is accessed via the NPM package.
+
+DB section
+DB The code here creates and deletes the database.
+
+Models
+The models standardise the input format for data and how the data interconnects. Primary or foreign keys are used to relate to other tables, as part of the SQL structure. Enabling the recall of data queries from more than one table. There are four four main tables, Category, Product, ProductTag and Tag. The index.js in this section outlines the tables relationships to each other. Tables can have a one to one relationship, one to many etc.
+
+Routes
+The routes files contain an API to manipulate the database, such as creating new data with post or delete commands. The index.js in this section calls an NPM package called Express which handles the route patterns and is used for building web and mobile aplications. This file exports the routes and connects with the code within Server.js, which manages the servers requests and responses.
+
+Seeds
+This contains all the data to populate the database. This code has been written into the code. But node packages like handlebars can enable data to be input by a user as part of a UI.
+
+Author Selina
+Github Link repository: https://github.com/Skirkzzz/week-13-Ecommerce-Backend
+Published in github pages
+
 # 13 Object-Relational Mapping (ORM): E-Commerce Back End
 
 ## Your Task
