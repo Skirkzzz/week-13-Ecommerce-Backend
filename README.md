@@ -24,7 +24,13 @@ Author Selina
 Github Link repository: https://github.com/Skirkzzz/week-13-Ecommerce-Backend
 Published in github pages https://skirkzzz.github.io/week-13-Ecommerce-Backend/
 
-To run the code
+To run the code you will need to install Node.js. Once installed the folowing commangeds can be run;
+
+npm i
+npm run seed
+my sql.server start
+
+This code does not have a front end and so the database has to be viewed from a web application such as insomnia https://insomnia.rest/download. This allows you to run the crud commands and get (retrieve), Post (add), Delete, Put (alter) data in the database.
 
 # 13 Object-Relational Mapping (ORM): E-Commerce Back End
 
