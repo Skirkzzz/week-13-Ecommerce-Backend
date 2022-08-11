@@ -73,7 +73,7 @@ Category.init(
   }
     ProductTag.init( {
 
-    tag_Id: {
+    productTag_Id: {
       type: DataTypes.INTEGER,
       allowNull: false,
       primaryKey: true,
@@ -105,7 +105,7 @@ Category.init(
   }
 );
 
-module.exports = Category;
+module.exports = Category, Product, Tag, ProductTag;
 
 /*you'll need to execute association methods on your Sequelize models to create the following relationships between them:
 
