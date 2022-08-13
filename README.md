@@ -1,5 +1,20 @@
 # week-13-Ecommerce-Backend
 
+## About This Code
+
+XXXXXXXX
+
+##Portfolio
+![Screenshot of Application!](/XXXXXX)
+
+## Links To Repository
+
+- The URL of the deployed application.
+
+https://github.com/Skirkzzz/week-13-Ecommerce-Backend
+
+https://skirkzzz.github.io/week-13-Ecommerce-Backend/
+
 This assignment is a demonstration of Object-Relational Mapping (ORM), which was used to create a backend SQL database for a fictious ecommerce company.
 
 The code contains the folowing folders;
